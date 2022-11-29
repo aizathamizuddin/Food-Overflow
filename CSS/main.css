@@ -108,16 +108,39 @@ input[type=text] {
 }
 
 .feed{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 70vh;
     height: 500px;
     background-color: rgba(53, 148, 148, 0.556);
     border-width: 1px;
     border-style: dashed;
     border-color: black;
+    flex-direction: column;
+}
+
+.post{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.qtitle_textbox{
+    margin-bottom: 10px;
+}
+
+.qdesc_textbox{
+    margin-bottom: 10px;
+}
+
+.postedby_textbox p{
+    font-size: 12px;
 }
 
 .sidebar{
+    margin-top: 80px;
     height: fit-content;
     width: fit-content;
     border-width: 1px;
@@ -126,19 +149,57 @@ input[type=text] {
 }
 
 .button_link{
-    width: 150px;
-    height: 50px;
-    background-color: rgba(127, 148, 53, 0.556);
+    width: 200px;
+    height: fit-content;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;    
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.faq_btn{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.about_btn{
+    width: 100%;
 }
 
 .top_contributor{
-    width: 150px;
-    height: 50px;
-    background-color: rgba(127, 148, 53, 0.556);
+    width: 200px;
+    height: fit-content;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;    
     margin: 10px;
+    padding: 10px;
+}
+.topcon_textbox{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+.topcon_user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prof_pic{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
 .login_details{
     display: flex;
     flex-direction: column;
