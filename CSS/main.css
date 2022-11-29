@@ -1,0 +1,147 @@
+.main_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_container{
+    display: flex;
+    flex: 20;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.backtoMain{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 113, 113, 0.556);
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.search_bar{
+    display: flex;
+    flex: 13;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.login_signup{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(0, 113, 113, 0.556);
+    padding: 10px;
+    margin: 5px;
+}
+
+.profile_button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.body_container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_contents{
+    background-color: rgba(184, 187, 35, 0.37);
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.feed_container{
+    height: fit-content;
+    margin-right: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.feed_header{
+    margin-top: 20px;
+    width: 70vh;
+    height: 50px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popquest_textbox{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: rgba(102, 245, 245, 0.556);
+    width: fit-content;
+    align-items: center;
+}
+
+.ask_question{
+    padding: 10px;
+    border-radius: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+.feed{
+    margin-top: 20px;
+    width: 70vh;
+    height: 500px;
+    background-color: rgba(53, 148, 148, 0.556);
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.sidebar{
+    height: fit-content;
+    width: fit-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.button_link{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(127, 148, 53, 0.556);
+    margin: 10px;
+}
+
+.top_contributor{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(127, 148, 53, 0.556);
+    margin: 10px;
+}
+
+.login_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
