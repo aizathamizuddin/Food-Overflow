@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="JS/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<body class="body">
+    <div class="main_page">
+
+        <div class="top_container">
+            <div class="navbar_section">
+                <div class="backtoMain">
+                    <a href="main.html"><img src="image/fologo_small.png" height="100%" width="100%"/></a>
+                </div>
+            </div>
+
+            <div class="navbar_section">
+                <input class="search_bar" placeholder="What's cookin today?" type="text">
+                <button class="search_btn">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            
+            <div class="navbar_section">
+                <button class="login_signup" onclick="openSignup()">Sign in / Sign up</button>
+                <div class="profile_button">
+                    <img src="image/default_pfp.png" height="100%" width="100%"/>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="body_container">
+           <div class="page_contents">
+                <div class="feed_container">
+                    <div class="feed">
+                        <div class="post">
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="sidebar">
+                    <div class="button_link">
+                        <div>
+                            <button class="about_btn" onclick="openAbout()"> About</button>
+                        </div>
+                        <div>
+                            <button class="faq_btn"> FAQ</button>
+                        </div>
+                    </div>
+
+                    <div class="top_contributor">
+                        <div class="topcon_textbox">
+                            <h6>Top Contributors</h6>
+                        </div>
+                        <div class="topcon_user">
+                            <div class="prof_pic"></div>
+                            <h6>chef_Zakwan88</h6>
+                        </div>
+                        <div class="topcon_user">
+                            <div class="prof_pic"></div>
+                            <h6>Redzuawan_</h6>
+                        </div>
+                        <div class="topcon_user">
+                            <div class="prof_pic"></div>
+                            <h6>NotGordonRamsay</h6>
+                        </div>
+        
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+         
+        
+
+    </div>
+</body>
+</html>
