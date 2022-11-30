@@ -15,6 +15,7 @@ Inspired by StackOverflow, FoodOverflow is a question and answer website for ent
 <h2>How To Use</h2>
 
 <h2>Features</h2>
+
 - [x] Users can sign up a new account.
 - [x] Users can login to their account.
 - [x] Users can post any question related to cooking or food on the website.
