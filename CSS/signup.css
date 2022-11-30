@@ -22,10 +22,6 @@ input{
     background-color: #4B5D67;
 }
 
-.left_container:hover{
-    background-color: #3b4a53;
-}
-
 .right_container{
     flex: 1;
     background-color: #322F3D;
@@ -39,19 +35,20 @@ input{
     color: white;
     width: 450px;
     height: 430px;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: -200px;
-    background-color: #4B5D67;
+    margin-left: -225px;
+    background: -webkit-linear-gradient(left, #322F3D 50%, #4B5D67 50%);
 }
 
 .text_container{
-    padding: 5px 10px 5px 10px;
+    color: white;
+    padding: 5px 35px 5px 10px;
 }
 
 .login_details{
@@ -61,15 +58,21 @@ input{
     justify-content: center;
 }
 
-.login_button{
+.signup_button{
     background-color: #f3a340;
     width: 100px;
     padding: 15px;
     border-radius: 30px;
-    border: 0px;
+    border: 1px;
 }
 
 .logo_image{
     position: relative;
     top: 25vh;
+}
+
+.signup_textbox{
+    padding: 5px;
+    border-radius: 30px;
+    border-style: solid;
 }
