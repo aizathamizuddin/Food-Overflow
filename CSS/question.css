@@ -1,0 +1,258 @@
+.body{
+    background-color: #322F3D;
+}
+
+.main_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_container{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #4B5D67;
+    padding: 5px;
+}
+
+.navbar_section{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.backtoMain{
+    width: 350px;
+    border-radius: 20px;
+    margin: 5px 0px 5px 5px;
+}
+
+input[type="text"]::placeholder {
+    padding: 10px;
+    color: white;
+  }
+
+.search_bar{
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #322F3D;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.search_btn{
+    background-color: #f3a340;
+    color: black;
+    height: 40px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.login_signup{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    display: inline-block;
+    border-radius: 30px;
+    border-color: white;
+    background-color: #f3a340;
+    margin: auto;
+    border: 0px;
+    padding: 5px;
+}
+
+.login_signup :hover{
+    color: black;
+}
+
+.profile_button{
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    border-color: #f3a340;
+    border-width: 3px;
+    border-radius: 100px;
+    margin: 5px 20px 5px 30px;
+}
+
+.body_container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_contents{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.feed_container{
+    height: fit-content;
+    width: 850px;
+    margin-right: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.feed{
+    margin-top: 10px;
+    padding: 0px 20px 10px 20px;
+    height: fit-content;
+    background-color: #4B5D67;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 5px; 
+    flex-direction: column;
+}
+
+.post{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: #97b5c5;
+    margin: 20px;
+    padding: 15px 15px 0px 15px;
+    clear: right;
+}
+
+.form_textbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.title_textbox{
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 24px;
+    margin: 25px 0px 25px 0px;
+}
+
+.question_textbox{
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0px 0px 10px 0px;
+    font-size: 24px;
+    height: 240px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.post_question{
+    padding: 10px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.qtitle_textbox{
+    margin-bottom: 10px;
+}
+
+.qdesc_textbox{
+    margin-bottom: 10px;
+}
+
+.postedby_textbox p{
+    font-size: 12px;
+}
+
+.sidebar{
+    margin-top: 80px;
+    height: fit-content;
+    width: fit-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.button_link{
+    width: 200px;
+    height: fit-content;
+    background-color: #59405C;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;   
+    border-radius: 5px; 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.faq_btn{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.about_btn{
+    width: 100%;
+}
+
+.top_contributor{
+    width: 200px;
+    height: fit-content;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;  
+    border-radius: 5px; 
+    background-color: #59405C;  
+    margin: 10px;
+    padding: 10px;
+}
+.topcon_textbox{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.topcon_user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prof_pic{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.login_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
