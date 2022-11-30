@@ -76,6 +76,7 @@ input[type="text"]::placeholder {
     border-color: white;
     background-color: #f3a340;
     margin: auto;
+    border: 0px;
     padding: 5px;
 }
 
