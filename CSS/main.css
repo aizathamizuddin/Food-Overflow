@@ -9,36 +9,57 @@
 
 .top_container{
     display: flex;
-    flex: 20;
-    height: 60px;
+    height: 80px;
     justify-content: space-between;
     flex-direction: row;
-    background-color: aqua;
+    align-items: center;
+    background-color: #5e5874;
     padding: 5px;
 }
 
-.backtoMain{
+.navbar_section{
     display: flex;
-    flex: 2;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 5px;
-    background-color: rgba(0, 113, 113, 0.556);
+    width: fit-content;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-input[type=text] {
-    width: 100%;
+.backtoMain{
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-radius: 20px;
+    margin: 5px 0px 5px 5px;
 }
+
+input[type="text"]::placeholder {
+    padding: 10px;
+    color: white;
+  }
 
 .search_bar{
-    display: flex;
-    flex: 13;
-    align-items: center;
-    justify-content: center;
+    width: 800px;
+    height: 40px;
+    vertical-align: middle;
     padding: 10px;
-    margin: 5px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #322F3D;
+    border: none;
+}
+
+.search_btn{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    height: 40px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
 }
 
 .login_signup{
@@ -68,7 +89,6 @@ input[type=text] {
 }
 
 .page_contents{
-    background-color: rgba(184, 187, 35, 0.37);
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -78,6 +98,7 @@ input[type=text] {
 
 .feed_container{
     height: fit-content;
+    width: 850px;
     margin-right: 20px;
     border-width: 1px;
     border-style: solid;
@@ -86,7 +107,6 @@ input[type=text] {
 
 .feed_header{
     margin-top: 20px;
-    width: 70vh;
     height: 50px;
     border-width: 1px;
     border-style: dashed;
@@ -100,9 +120,11 @@ input[type=text] {
     border-style: solid;
     border-color: black;
     padding: 10px;
-    background-color: rgba(102, 245, 245, 0.556);
-    width: fit-content;
+    font-size: 50px;
+    color: white;
+    background-color: #4B5D67;
     align-items: center;
+    box-shadow: 0px 0px 5px #7d7597;
 }
 
 .ask_question{
@@ -114,9 +136,9 @@ input[type=text] {
 
 .feed{
     margin-top: 10px;
-    width: 70vh;
+    padding: 0px 20px 0px 20px;
     height: 500px;
-    background-color: rgba(53, 148, 148, 0.556);
+    background-color: #4B5D67;
     border-width: 1px;
     border-style: dashed;
     border-color: black;
@@ -128,6 +150,7 @@ input[type=text] {
     border-style: solid;
     border-color: black;
     border-radius: 10px;
+    background-color: #97b5c5;
     margin: 20px;
     padding: 15px;
 }
@@ -156,6 +179,7 @@ input[type=text] {
 .button_link{
     width: 200px;
     height: fit-content;
+    background-color: #59405C;
     border-width: 1px;
     border-style: dashed;
     border-color: black;   
@@ -182,7 +206,8 @@ input[type=text] {
     height: fit-content;
     border-width: 1px;
     border-style: dashed;
-    border-color: black;    
+    border-color: black;  
+    background-color: #59405C;  
     margin: 10px;
     padding: 10px;
 }
