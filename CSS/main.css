@@ -68,10 +68,19 @@ input[type="text"]::placeholder {
     height: 40px;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    display: inline-block;
     border-radius: 30px;
     border-color: white;
     background-color: #f3a340;
     margin: auto;
+    padding: 5px;
+}
+
+.login_signup :hover{
+    color: black;
 }
 
 .profile_button{
