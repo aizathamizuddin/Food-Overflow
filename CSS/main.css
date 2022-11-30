@@ -13,7 +13,7 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    background-color: #5e5874;
+    background-color: #4B5D67;
     padding: 5px;
 }
 
@@ -25,8 +25,6 @@
 }
 
 .backtoMain{
-    align-items: center;
-    justify-content: center;
     width: 350px;
     border-radius: 20px;
     margin: 5px 0px 5px 5px;
@@ -40,37 +38,40 @@ input[type="text"]::placeholder {
 .search_bar{
     width: 800px;
     height: 40px;
-    vertical-align: middle;
     padding: 10px;
     margin: 5px 0px 5px 0px;
     border-radius: 50px 0px 0px 50px;
     background-color: #322F3D;
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
 }
 
 .search_btn{
-    background-color: #0074D9;
-    color: #f2f2f2;
-    float: right;
+    background-color: #f3a340;
+    color: black;
     height: 40px;
     width: 50px;
     margin-top: 5px;
-    margin-right: 16px;
+    margin-right: 100px;
+    padding: 5px;
     font-size: 20px;
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
     cursor: pointer;
     border-radius: 0px 50px 50px 0px;
 }
 
 .login_signup{
-    display: flex;
-    flex: 2;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    background-color: rgba(0, 113, 113, 0.556);
-    padding: 10px;
-    margin: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border-color: white;
+    background-color: #f3a340;
+    margin: auto;
 }
 
 .profile_button{
@@ -79,8 +80,10 @@ input[type="text"]::placeholder {
     height: 60px;
     width: 60px;
     border-style: solid;
+    border-color: #f3a340;
+    border-width: 3px;
     border-radius: 100px;
-    margin: 5px;
+    margin: 5px 20px 5px 30px;
 }
 
 .body_container{
