@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/faq.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="JS/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+</head>
+<body class="body">
+    <div class="main_page">
+
+        <div class="top_container">
+            <div class="navbar_section">
+                <div class="backtoMain">
+                    <a href="main.html"><img class="ttip" data-bs-placement="right" title="Back to Main Page" src="image/fologo_small.png" height="100%" width="100%"/></a>
+                </div>
+            </div>
+
+            <div class="navbar_section">
+                <input class="search_bar" placeholder="What's cookin today?" type="text">
+                <button class="search_btn">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            
+            <div class="navbar_section">
+                <div class="dropdown mt-3">
+                    <button class="login_signup dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">Sign in / Sign up</button>
+                    <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                        <li><button class="dropdown-item" onclick="openLogin()">Sign in</button></li>
+                        <li><button class="dropdown-item" onclick="openSignup()">Sign up</button></li>
+                    </ul>
+                </div>
+                <div class="profile_button">
+                    <img src="image/default_pfp.png" height="100%" width="100%"/>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="body_container">
+           <div class="page_contents">
+                <div class="feed_container">
+
+                    <div class="feed_header">
+                        <div class="faq_textbox">
+                            <h6 class="m-auto">FAQ</h6>
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="post">
+
+                            <div>
+                                <h5 class="faq-page">What is FoodOverflow?</h5>
+                                <div class="faq-body">
+                                    <p>FoodOverflow is a question and answer website for enthusiast food lovers.</p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+
+                            <div>
+                                <h5 class="faq-page">What topics can I ask about here?</h5>
+                                <div class="faq-body">
+                                    <p>Stack Overflow is for professional and enthusiast food lovers, or anyone who just loves to cook. If your question generally covers…
+                                        <br><br>
+                                        - a specific cooking technique problem, or <br>
+                                        - a kind of recipe, or <br>
+                                        - tips or tricks or <br>
+                                        - cooking utensils; and is <br>
+                                        - a practical, answerable problem that is unique to culinary arts <br><br>
+                                        …then you’re in the right place to ask your question! <br>
+                                        You can ask any questions related to cooking such as tips, do's and don'ts and even suggestions.
+                                        Not limited to only cooking, even questions about baking are welcomed!
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+
+                            <div>
+                                <h5 class="faq-page">How do I ask a question?</h5>
+                                <div class="faq-body">
+                                    <p>Click on the (+ Ask a Question) button on the main page.
+                                        Type in your question title and description. Click (+ Post Question) and 
+                                        just wait for other users to reply your question.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+
+                            
+                            <div>
+                                <h5 class="faq-page">Can I answer my own question?</h5>
+                                <div class="faq-body">
+                                    <p>Of course! If you already have the answer to your previously posted question, 
+                                        and you would like to document that knowledge in public so that others (including yourself) 
+                                        can find it later, it's perfectly okay to ask and answer your own question.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+
+                            <div>
+                                <h5 class="faq-page">What is the 'Top Contributor' list?</h5>
+                                <div class="faq-body">
+                                    <p>The 'Top Contributor' lists the most active users that accumulated a number of points from contributing 
+                                        in replying to questions with helpful answers.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+
+                            <div>
+                                <h5 class="faq-page">How do I earn points?</h5>
+                                <div class="faq-body">
+                                    <p>You need to actively participate in replying to questions asked by other users.
+                                        If the reply is liked by other users, you will be awarded points for each like.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+
+                            <div>
+                                <h5 class="faq-page">How do I delete my account?</h5>
+                                <div class="faq-body">
+                                    <p>Please email our customer support at foodoverflow_cs@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="hr-line">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.ttip');
+        tooltips.forEach(t =>{
+            new bootstrap.Tooltip(t);
+        })
+    </script>
+    <script src="JS/faq.js"></script>
+</body>
+</html>

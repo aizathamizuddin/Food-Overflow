@@ -137,7 +137,7 @@ input[type="text"]::placeholder {
     justify-content: center;
 }
 
-.about_textbox {
+.faq_textbox {
     border-width: 2px;
     border-style: solid;
     border-color: black;
@@ -177,41 +177,67 @@ input[type="text"]::placeholder {
     border-radius: 10px;
     background-color: #97b5c5;
     margin: 20px;
-    padding: 15px 15px 0px 15px;
+    padding: 15px 15px 15px 15px;
     clear: right;
-}
-
-.feature_container {
-    margin: 20px;
-    padding: 15px 15px 0px 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.feature {
-    height: 300px;
-    width: 200px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    background-color: white;
-    display: flex;
+    justify-content: center;
     flex-direction: column;
-    color: black;
-}
-
-#icon {
-    font-size: 50px;
-    margin: 15px;
-}
-
-.feature h6{
-    margin: 10px;
 }
 
 .post h6{
     margin: 5px 20px 15px 20px;
     text-align: justify;
+}
+
+.hr-line{
+  width: 60%;
+  margin: auto;
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 15px 20px 10px 20px;
+    width: 90%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    text-align: left;
+    height: 60px;
+}
+
+.faq-body{
+    margin: auto;
+    text-align: left;
+    width: 90%; 
+    padding: auto;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
 }

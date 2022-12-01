@@ -15,3 +15,7 @@ function openAskQuestion() {
 function openAbout() {
     window.open("about.html", "_self");
 }
+
+function openFAQ() {
+    window.open("faq.html", "_self");
+}
