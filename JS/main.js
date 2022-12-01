@@ -19,11 +19,11 @@ function openAskQuestion() {
 }
 
 function openAbout() {
-    window.open("/HTML/about.html", "_self");
+    window.open("HTML/about.html", "_self");
 }
 
 function openFAQ() {
-    window.open("/HTML/faq.html", "_self");
+    window.open("HTML/faq.html", "_self");
 }
 function openSettings(){
     alert("Sorry, the Settings page is not ready for use.");
