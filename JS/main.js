@@ -6,3 +6,7 @@ function openSignup(){
 function openAskQuestion(){
     window.open("askquestion.html", "_self");
 }
+
+function openAbout(){
+    window.open("about.html", "_self");
+}

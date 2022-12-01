@@ -27,9 +27,9 @@
 }
 
 .backtoMain{
-    width: 300px;
+    width: 350px;
     border-radius: 20px;
-    margin: 5px 0px 5px 15px;
+    margin: 5px 0px 5px 5px;
 }
 
 input[type="text"]::placeholder {
@@ -38,7 +38,7 @@ input[type="text"]::placeholder {
   }
 
 .search_bar{
-    width: 600px;
+    width: 800px;
     height: 40px;
     padding: 10px;
     margin: 5px 0px 5px 0px;
@@ -55,6 +55,7 @@ input[type="text"]::placeholder {
     height: 40px;
     width: 50px;
     margin-top: 5px;
+    margin-right: 100px;
     padding: 5px;
     font-size: 20px;
     border: solid;
@@ -112,7 +113,7 @@ input[type="text"]::placeholder {
     margin: auto;
 }
 
-/* ----------------------------- MIDDLE FEED + HEADER */
+/* ----------------------------- MIDDLE FEED */
 
 .feed_container{
     height: fit-content;
@@ -122,38 +123,6 @@ input[type="text"]::placeholder {
     border-style: solid;
     border-color: black;
 }
-
-.feed_header{
-    margin-top: 20px;
-    height: 50px;
-    border-width: 1px;
-    border-style: dashed;
-    border-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.popquest_textbox{
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px; 
-    padding: 10px;
-    font-size: 50px;
-    color: white;
-    background-color: #4B5D67;
-    align-items: center;
-    box-shadow: 0px 0px 5px #7d7597;
-}
-
-.ask_question{
-    padding: 10px;
-    border-radius: 30px;
-    width: fit-content;
-    margin: auto;
-}
-
-/* ----------------------------- FEED POSTS */
 
 .feed{
     margin-top: 10px;
@@ -174,19 +143,8 @@ input[type="text"]::placeholder {
     border-radius: 10px;
     background-color: #97b5c5;
     margin: 20px;
-    padding: 15px;
-}
-
-.qtitle_textbox{
-    margin-bottom: 10px;
-}
-
-.qdesc_textbox{
-    margin-bottom: 10px;
-}
-
-.postedby_textbox p{
-    font-size: 12px;
+    padding: 15px 15px 0px 15px;
+    clear: right;
 }
 
 /* ----------------------------- SIDEBAR */
@@ -236,7 +194,6 @@ input[type="text"]::placeholder {
     margin: 10px;
     padding: 10px;
 }
-
 .topcon_textbox{
     text-align: center;
     margin-bottom: 20px;
@@ -257,7 +214,6 @@ input[type="text"]::placeholder {
     border-radius: 100px;
     margin-right: 10px;
 }
-
 .login_details{
     display: flex;
     flex-direction: column;
