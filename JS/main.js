@@ -1,4 +1,5 @@
 //for main.html
+
 function openLogin() {
     window.open("login.html", "_self");
 }
