@@ -102,7 +102,7 @@ input[type="text"]::placeholder {
 
 .backtoMain:hover{
     background: -webkit-linear-gradient(left, #322F3D 30%, #4B5D67 70%);
-    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .login_signup:hover, .search_btn:hover, .profile_button:hover{
