@@ -11,14 +11,17 @@ This is the Repository for SWE2021_41 Open Source Software Lab Final Project by:
 Inspired by StackOverflow, FoodOverflow is a question and answer website for enthusiast food lovers.
 
 <h2>Screenshots of Webpage</h2>
+    
+![imageedit_3_6394204843](https://user-images.githubusercontent.com/97009898/205152408-7f73873a-1952-4b08-8da6-7bf367601e13.png)
 
 <h2>How To Use</h2>
     <ol>
         <li>Users can choose to either continue as guest, signup or signin to the website<br></li>
-        <li>Afterwards, users can ask questions by pressing the "Ask a Question" button. Fill in the title and the description then, the question will be posted online for any other user to answer.</li>
+        <li>Afterwards, users can ask questions by pressing the "Ask a Question" button. Fill in the title and the description. Then, the question will be posted online for any other users to answer.</li>
         <li>To answer questions, users should select any of the existing posts. Then, a new page will open with the post and the answer textbox for users to fill.</li>
-        <li>Users are allowed to rate the question and answers for the questions by giving it a thumbs up.</li>
+        <li>Users are allowed to rate the question by giving it a thumbs up 👍 and answers for the questions by giving it a like ♥.</li>
         <li>Users can use the search bar to find related questions to their problem.</li>
+        <li>Users can open other users' profile page and see their answered questions and posted questions.</li>
         <li>A Frequently Asked Questions (FAQ) page is also provided at the home page in case users are unsure of how to use the page.</li>
     </ol>
 
@@ -28,6 +31,8 @@ Inspired by StackOverflow, FoodOverflow is a question and answer website for ent
 - [x] Users can login to their account.
 - [x] Users can post any question related to cooking or food on the website.
 - [x] Users can reply and answer to questions posted on the website.
+- [x] Users can give a thumbs up to a question.
+- [x] Users can give a like to an answer.   
 - [x] The most active and helpful users on the platform will be listed in the top contributors list.
 
 <h2>Presentation Video</h2>
