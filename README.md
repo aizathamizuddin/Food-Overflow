@@ -13,6 +13,14 @@ Inspired by StackOverflow, FoodOverflow is a question and answer website for ent
 <h2>Screenshots of Webpage</h2>
 
 <h2>How To Use</h2>
+    <ol>
+        <li>Users can choose to either continue as guest, signup or signin to the website<br></li>
+        <li>Afterwards, users can ask questions by pressing the "Ask a Question" button. Fill in the title and the description then, the question will be posted online for any other user to answer.</li>
+        <li>To answer questions, users should select any of the existing posts. Then, a new page will open with the post and the answer textbox for users to fill.</li>
+        <li>Users are allowed to rate the question and answers for the questions by giving it a thumbs up.</li>
+        <li>Users can use the search bar to find related questions to their problem.</li>
+        <li>A Frequently Asked Questions (FAQ) page is also provided at the home page in case users are unsure of how to use the page.</li>
+    </ol>
 
 <h2>Features</h2>
 
