@@ -3,6 +3,10 @@
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+.body::-webkit-scrollbar {
+    display: none;
+}
+
 .main_page {
     display: flex;
     flex-direction: column;
