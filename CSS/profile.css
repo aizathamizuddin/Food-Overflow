@@ -128,9 +128,8 @@ input[type="text"]::placeholder {
     display: flex;
     flex-direction: column;
     flex: 2;
-    justify-content: center;
     align-items: center;
-    height: 855px;
+    padding-top: 40px;
     background-color: #423e50;
 }
 
@@ -154,11 +153,38 @@ input[type="text"]::placeholder {
 
 /* ----------------------------- PROFILE CONTENTS */
 
+.feed_container {
+    height: fit-content;
+    width: 850px;
+    margin-right: 20px;
+}
+
 .profile_contents{
     display: flex;
+    flex-direction: column;
     flex: 8;
     justify-content: center;
     align-items: center;
+}
+
+.feed_header {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+}
+
+.ansquest_textbox {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    width: 200px;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    background-color: #4B5D67;
+    text-align: center;
+    box-shadow: 0px 0px 5px #7d7597;
 }
 
 .feed {
@@ -170,7 +196,11 @@ input[type="text"]::placeholder {
     border-style: solid;
     border-color: white;
     border-radius: 5px;
-    flex-direction: column;
+}
+
+.feed #seemore {
+    text-align: right;
+    color:#4e93c2;
 }
 
 .post {
@@ -183,6 +213,35 @@ input[type="text"]::placeholder {
     padding: 15px;
 }
 
+.post_w_ans {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #97b5c5;
+    margin: 20px 20px 0px 20px;
+    padding: 15px;
+}
+
+.ans {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #cdeeff;
+    margin: 0px 20px 0px 20px;
+    padding: 15px;
+}
+
+.ansplusarrow {
+    display: flex;
+    flex-direction: row;
+}
+
+#arrow {
+    margin-right: 5px;
+}
+
 .qtitle_textbox {
     margin-bottom: 10px;
 }
@@ -191,6 +250,10 @@ input[type="text"]::placeholder {
     margin-bottom: 10px;
 }
 
-.postedby_textbox p {
+.postedby_textbox{
     font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
 }

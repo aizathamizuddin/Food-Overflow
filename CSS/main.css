@@ -189,8 +189,12 @@ input[type="text"]::placeholder {
     margin-bottom: 10px;
 }
 
-.postedby_textbox p {
+.postedby_textbox{
     font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 /* ----------------------------- SIDEBAR */
