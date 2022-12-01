@@ -33,8 +33,14 @@
                         <li><button class="dropdown-item" onclick="openSignup()">Sign up</button></li>
                     </ul>
                 </div>
-                <div class="profile_button">
-                    <img src="image/default_pfp.png" height="100%" width="100%"/>
+                <div class="dropdown">
+                    <button class="profile_button dropdown-toggle" type="button" id="signin-dropdown" data-bs-toggle="dropdown">
+                        <img src="image/default_pfp.png" height="100%" width="100%"/>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="signin-dropdown">
+                        <li><button class="dropdown-item" onclick="openProfile()">Profile</button></li>
+                        <li><button class="dropdown-item" onclick="openSettings()">Settings</button></li>
+                    </ul>
                 </div>
             </div>
             
