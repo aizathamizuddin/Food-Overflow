@@ -1,6 +1,7 @@
 .body {
     background-color: #322F3D;
     font-family: 'Trebuchet MS', sans-serif;
+    height: 100%;
 }
 
 .body::-webkit-scrollbar {
@@ -115,49 +116,50 @@ input[type="text"]::placeholder {
 }
 
 .page_contents {
-    height: fit-content;
-    width: fit-content;
     display: flex;
+    flex: 10;
     flex-direction: row;
-    margin: auto;
 }
 
-/* ----------------------------- MIDDLE FEED + HEADER */
+/* ----------------------------- LEFT BAR */
 
-.feed_container {
-    height: fit-content;
-    width: 850px;
-    margin-right: 20px;
-}
-
-.feed_header {
-    margin-top: 20px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.popquest_textbox {
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 50px;
+.leftbar{
     color: white;
-    background-color: #4B5D67;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 5px #7d7597;
+    height: 855px;
+    background-color: #423e50;
 }
 
-.ask_question {
-    padding: 10px;
-    border-radius: 30px;
-    width: fit-content;
-    margin: auto;
+.profile_img{
+    overflow: hidden;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #f3a340;
+    border-width: 3px;
+    border-radius: 100px;
+    margin: 5px 20px 5px 30px;
+    border-radius: 100%;
 }
 
-/* ----------------------------- FEED POSTS */
+.profile_details{
+    margin-top: 60px;
+    padding: 5px;
+}
+
+/* ----------------------------- PROFILE CONTENTS */
+
+.profile_contents{
+    display: flex;
+    flex: 8;
+    justify-content: center;
+    align-items: center;
+}
 
 .feed {
     margin-top: 10px;
@@ -191,88 +193,4 @@ input[type="text"]::placeholder {
 
 .postedby_textbox p {
     font-size: 12px;
-}
-
-/* ----------------------------- SIDEBAR */
-
-.sidebar {
-    margin-top: 80px;
-    height: fit-content;
-    width: fit-content;
-}
-
-.button_link {
-    width: 250px;
-    height: fit-content;
-    background-color: #59405C;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.faq_btn {
-    width: 80%;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-
-.about_btn {
-    width: 80%;
-    border-radius: 30px;
-}
-
-.top_contributor {
-    width: 250px;
-    height: fit-content;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    background-color: #59405C;
-    margin: 10px;
-    padding: 10px;
-}
-
-
-.topcon_textbox {
-    text-align: center;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding: 10px 5px 5px 5px;
-    background-color: #4B5D67;
-    color: white;
-}
-
-.topcon_user {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-    padding: 5px;
-    color: white;
-}
-
-.topcon_user:hover {
-    background-color: #77567b;
-}
-
-.prof_pic {
-    overflow: hidden;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    background-color: white;
-    border: 1px;
-    border-radius: 100px;
-    margin-right: 10px;
 }
