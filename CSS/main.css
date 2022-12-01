@@ -1,5 +1,6 @@
 .body {
     background-color: #322F3D;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .body::-webkit-scrollbar {
@@ -102,7 +103,7 @@ input[type="text"]::placeholder {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.login_signup:hover, .search_btn:hover, .profile_button:hover{
+.login_signup:hover, .search_btn:hover, .profile_button:hover, .ask_question:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -127,17 +128,11 @@ input[type="text"]::placeholder {
     height: fit-content;
     width: 850px;
     margin-right: 20px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
 }
 
 .feed_header {
     margin-top: 20px;
     height: 50px;
-    border-width: 1px;
-    border-style: dashed;
-    border-color: black;
     display: flex;
     justify-content: space-between;
 }
@@ -170,8 +165,8 @@ input[type="text"]::placeholder {
     height: fit-content;
     background-color: #4B5D67;
     border-width: 1px;
-    border-style: dashed;
-    border-color: black;
+    border-style: solid;
+    border-color: white;
     border-radius: 5px;
     flex-direction: column;
 }
@@ -204,18 +199,15 @@ input[type="text"]::placeholder {
     margin-top: 80px;
     height: fit-content;
     width: fit-content;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
 }
 
 .button_link {
-    width: 200px;
+    width: 250px;
     height: fit-content;
     background-color: #59405C;
     border-width: 1px;
-    border-style: dashed;
-    border-color: black;
+    border-style: solid;
+    border-color: white;
     border-radius: 5px;
     margin: 10px;
     display: flex;
@@ -223,32 +215,42 @@ input[type="text"]::placeholder {
     justify-content: space-between;
     padding: 10px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .faq_btn {
-    width: 100%;
+    width: 80%;
+    border-radius: 30px;
     margin-top: 10px;
 }
 
 .about_btn {
-    width: 100%;
+    width: 80%;
+    border-radius: 30px;
 }
 
 .top_contributor {
-    width: 200px;
+    width: 250px;
     height: fit-content;
     border-width: 1px;
-    border-style: dashed;
-    border-color: black;
+    border-style: solid;
+    border-color: white;
     border-radius: 5px;
     background-color: #59405C;
     margin: 10px;
     padding: 10px;
 }
 
+
 .topcon_textbox {
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px 5px 5px 5px;
+    background-color: #4B5D67;
+    color: white;
 }
 
 .topcon_user {
@@ -256,11 +258,15 @@ input[type="text"]::placeholder {
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
+    padding: 5px;
+    color: white;
 }
 
 .prof_pic {
-    height: 30px;
-    width: 30px;
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    width: 40px;
     background-color: white;
     border: 1px;
     border-radius: 100px;
