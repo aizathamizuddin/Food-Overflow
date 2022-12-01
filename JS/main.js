@@ -1,12 +1,12 @@
 //for main.html
-function openSignup(){
+function openLogin() {
     window.open("login.html", "_self");
 }
 
-function openAskQuestion(){
+function openAskQuestion() {
     window.open("askquestion.html", "_self");
 }
 
-function openAbout(){
+function openAbout() {
     window.open("about.html", "_self");
 }
