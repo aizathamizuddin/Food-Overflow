@@ -1,14 +1,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/question.css">
+    <link rel="stylesheet" href="CSS/userProfile.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="JS/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ask A Question</title>
+    <title>Profile</title>
 </head>
 <body class="body">
+
     <div class="main_page">
 
         <div class="top_container">
@@ -48,82 +49,67 @@
 
         <div class="body_container">
            <div class="page_contents">
-                <div class="feed_container">
-
-                    <div class="feed_header">
-                        <div class="postquest_textbox">
-                            <h6 class="m-auto">Post your question.</h6>
-                        </div>
-                    </div>
-
-                    <div class="feed">
-                        <div class="post">
-                            <form action="">
-                                <div class="form_textbox">
-                                    <h6 class="txt">Title :</h6>
-                                    <input class="title_textbox" type="text" name="title" id="title" placeholder="Insert A Title">
-                                    <h6 class="txt">Description :</h6>
-                                    <textarea class="question_textbox" name="question" id="question" placeholder="Please write your question here." rows="4" cols="50"></textarea>
-                                </div>
-                                <div class="button_container">
-                                    <button class="post_question"><i class="bi bi-plus-lg"></i> Post Question</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                <div class="leftbar">
+                    <div class="profile_img"><img src="image/default_pfp.png" height="100%" width="100%"/></div>
+                    <div>Guest</div>
+                    <ul class="profile_details">
+                        <li>Profile Views: <span id="count"></span></li>
+                        <li>Questions Asked: 0</li>
+                        <li>Questions Answered: 0</li>
+                    </ul>
                 </div>
-                    
-                <div class="sidebar">
-
-                    <div class="button_link">
-                        <div>
-                            <button class="ttip about_btn" data-bs-placement="right" title="Learn More About Us" onclick="openAbout()"> About</button>
+                <div class="profile_contents">
+                    <div class="feed_container">
+                        <div class="feed">
+    
+                            <div class="post">
+                                <div class="qtitle_textbox">
+                                    <h4 class="m-auto">Milk Alternative?</h4>
+                                </div>
+                                <div class="qdesc_textbox">
+                                    <h6 class="m-auto">Is there any alternatives to milk? I'm lactose intolerant.</h6>
+                                </div>
+                                <div class="postedby_textbox">
+                                    <p class="m-auto">posted by NoToMilk992</p>
+                                </div>
+                            </div>
+    
+                            <div class="post">
+                                <div class="qtitle_textbox">
+                                    <h4 class="m-auto">Why my salmon dry out when heating?</h4>
+                                </div>
+                                <div class="qdesc_textbox">
+                                    <h6 class="m-auto">I have leftover salmons yesterday. I tried to reheat them on a pan but then they seem to dry out.
+                                        How do you reheat it so that it won't dry out? Please help me!! :(
+                                    </h6>
+                                    <br>
+                                    <img src="image/post2.jpg">
+                                </div>
+                                <div class="postedby_textbox">
+                                    <p class="m-auto">posted by spearmint12</p>
+                                </div>
+                            </div>
+    
                         </div>
-                        <div>
-                            <button class="ttip faq_btn" data-bs-placement="right" title="Read Frequently Asked Questions" onclick="openFAQ()"> FAQ</button>
-                        </div>
+    
                     </div>
-
-                    <div class="top_contributor">
-                        <div class="topcon_textbox">
-                            <i class="bi bi-trophy"></i>
-                            <h6>Top Contributors</h6>
-                            <i class="bi bi-trophy"></i>
-                        </div>
-                        <div class="topcon_user">
-                            <div class="prof_pic">
-                                <img src="image/user1.jpeg" height="100%" width="100%"/>
-                            </div>
-                            <h6>chef_Zakwan88</h6>
-                        </div>
-                        <div class="topcon_user">
-                            <div class="prof_pic">
-                                <img src="image/user2.jpg" height="100%" width="100%"/>
-                            </div>
-                            <h6>Redzuawan_</h6>
-                        </div>
-                        <div class="topcon_user">
-                            <div class="prof_pic">
-                                <img src="image/user3.jpg" height="100%" width="100%"/>
-                            </div>
-                            <h6>NotGordonRamsay</h6>
-                        </div>
-        
-                    </div>
-        
                 </div>
             </div>
         </div>
-         
-        
-
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script>
         const tooltips = document.querySelectorAll('.ttip');
         tooltips.forEach(t =>{
             new bootstrap.Tooltip(t);
-        })
+        });
+
+
+        if(!localStorage.pageLoadCount)
+            localStorage.pageLoadCount = 10321;
+
+        localStorage.pageLoadCount = parseInt(localStorage.pageLoadCount) + 1;
+        document.getElementById('count').textContent = localStorage.pageLoadCount;
     </script>
 </body>
 </html>

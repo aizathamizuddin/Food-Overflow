@@ -1,8 +1,9 @@
-//for main.html
+function openUserProfile(){
+    alert("You haven't signed in. Please login to your account.");
+}
 
 function openProfile(){
-    alert("You haven't signed in. Please login to your account.");
-    openLogin();
+    window.open("profile.html", "_self");
 }
 
 function openLogin() {
