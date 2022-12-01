@@ -3,27 +3,27 @@ function openUserProfile(){
 }
 
 function openProfile(){
-    window.open("profile.html", "_self");
+    window.open("HTML/profile.html", "_self");
 }
 
 function openLogin() {
-    window.open("login.html", "_self");
+    window.open("HTML/login.html", "_self");
 }
 
 function openSignup() {
-    window.open("signup.html", "_self");
+    window.open("HTML/signup.html", "_self");
 }
 
 function openAskQuestion() {
-    window.open("askquestion.html", "_self");
+    window.open("HTML/askquestion.html", "_self");
 }
 
 function openAbout() {
-    window.open("about.html", "_self");
+    window.open("HTML/about.html", "_self");
 }
 
 function openFAQ() {
-    window.open("faq.html", "_self");
+    window.open("HTML/faq.html", "_self");
 }
 function openSettings(){
     alert("Sorry, the Settings page is not ready for use.");
