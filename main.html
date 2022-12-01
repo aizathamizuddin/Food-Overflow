@@ -27,7 +27,13 @@
             </div>
             
             <div class="navbar_section">
-                <button class="login_signup" onclick="openLogin()">Sign in / Sign up</button>
+                <div class="dropdown mt-3">
+                    <button class="login_signup dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">Sign in / Sign up</button>
+                    <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                        <li><button class="dropdown-item" onclick="openLogin()">Sign in</button></li>
+                        <li><button class="dropdown-item" onclick="openSignup()">Sign up</button></li>
+                    </ul>
+                </div>
                 <div class="profile_button">
                     <img src="image/default_pfp.png" height="100%" width="100%"/>
                 </div>
