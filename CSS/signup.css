@@ -91,6 +91,7 @@ input {
     color: black;
     flex-direction: row;
     background: none;
+    padding: 0 15px 15px 0;
     border: 0px;
     justify-self: flex-end;
     align-self: flex-end;
