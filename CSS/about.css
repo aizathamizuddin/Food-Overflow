@@ -1,11 +1,14 @@
 .body {
     background-color: #322F3D;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .main_page {
     display: flex;
     flex-direction: column;
 }
+
+
 
 /* ----------------------------- TOP NAVIGATION BAR */
 
@@ -29,7 +32,7 @@
 .backtoMain {
     width: 300px;
     border-radius: 20px;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 0px 5px 15px;
 }
 
 input[type="text"]::placeholder {
@@ -38,7 +41,7 @@ input[type="text"]::placeholder {
 }
 
 .search_bar {
-    width: 800px;
+    width: 600px;
     height: 40px;
     padding: 10px;
     margin: 5px 0px 5px 0px;
@@ -55,7 +58,6 @@ input[type="text"]::placeholder {
     height: 40px;
     width: 50px;
     margin-top: 5px;
-    margin-right: 100px;
     padding: 5px;
     font-size: 20px;
     border: solid;
@@ -80,6 +82,10 @@ input[type="text"]::placeholder {
     margin: auto;
     border: 0px;
     padding: 5px;
+}
+
+.login_signup :hover {
+    color: black;
 }
 
 .profile_button {
@@ -124,9 +130,27 @@ input[type="text"]::placeholder {
     height: fit-content;
     width: 850px;
     margin-right: 20px;
-    border-width: 1px;
+}
+
+.feed_header {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_textbox {
+    border-width: 2px;
     border-style: solid;
     border-color: black;
+    border-radius: 0px;
+    width: 200px;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    background-color: #4B5D67;
+    text-align: center;
+    box-shadow: 0px 0px 5px #7d7597;
 }
 
 .feed {
@@ -135,10 +159,17 @@ input[type="text"]::placeholder {
     height: fit-content;
     background-color: #4B5D67;
     border-width: 1px;
-    border-style: dashed;
-    border-color: black;
+    border-style: solid;
+    border-color: white;
     border-radius: 5px;
     flex-direction: column;
+    text-align: center;
+}
+
+.logo {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .post {
@@ -152,78 +183,37 @@ input[type="text"]::placeholder {
     clear: right;
 }
 
-/* ----------------------------- SIDEBAR */
+.feature_container {
+    margin: 20px;
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
-.sidebar {
-    margin-top: 80px;
-    height: fit-content;
-    width: fit-content;
+.feature {
+    height: 300px;
+    width: 200px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
-}
-
-.button_link {
-    width: 200px;
-    height: fit-content;
-    background-color: #59405C;
-    border-width: 1px;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 5px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.faq_btn {
-    width: 100%;
-    margin-top: 10px;
-}
-
-.about_btn {
-    width: 100%;
-}
-
-.top_contributor {
-    width: 200px;
-    height: fit-content;
-    border-width: 1px;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 5px;
-    background-color: #59405C;
-    margin: 10px;
-    padding: 10px;
-}
-
-.topcon_textbox {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.topcon_user {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.prof_pic {
-    height: 30px;
-    width: 30px;
+    border-radius: 10px;
     background-color: white;
-    border: 1px;
-    border-radius: 100px;
-    margin-right: 10px;
-}
-
-.login_details {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    color: black;
+}
+
+#icon {
+    font-size: 50px;
+    margin: 15px;
+}
+
+.feature h6{
+    margin: 10px;
+}
+
+.post h6{
+    margin: 5px 20px 15px 20px;
+    text-align: justify;
 }

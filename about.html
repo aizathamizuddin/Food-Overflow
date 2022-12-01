@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="JS/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>About Page</title>
 </head>
 <body class="body">
     <div class="main_page">
@@ -37,47 +37,51 @@
         <div class="body_container">
            <div class="page_contents">
                 <div class="feed_container">
-                    <div class="feed">
-                        <div class="post">
-                        </div>
-                    </div>
-                </div>
-                    
-                <div class="sidebar">
-                    <div class="button_link">
-                        <div>
-                            <button class="about_btn" onclick="openAbout()"> About</button>
-                        </div>
-                        <div>
-                            <button class="faq_btn"> FAQ</button>
+
+                    <div class="feed_header">
+                        <div class="about_textbox">
+                            <h6 class="m-auto">About Us</h6>
                         </div>
                     </div>
 
-                    <div class="top_contributor">
-                        <div class="topcon_textbox">
-                            <h6>Top Contributors</h6>
+                    <div class="feed">
+                        <div class="logo">
+                            <img src="image/fologo_big.png" height="100%" width="100%"/>
                         </div>
-                        <div class="topcon_user">
-                            <div class="prof_pic"></div>
-                            <h6>chef_Zakwan88</h6>
+                        <div class="post">
+                            <h6>FoodOverflow is a question and answer website for enthusiast food lovers.
+                                It first started as a final project for an open source software class by 2 university students in South Korea in 2022.
+                                It features questions and answers on a wide range of topics related to cooking including baking.
+                                <br>
+                                <br>
+                                Inspired by Stack Overflow, the website serves as a platform for users to ask and answer questions 
+                                anything related to the culinary arts.
+                                Users of Food Overflow can earn points through active participation in replying other users' questions with helpful
+                                answers. Users with the most points will be listed in the 'Top Contributors' list.
+                            </h6>
                         </div>
-                        <div class="topcon_user">
-                            <div class="prof_pic"></div>
-                            <h6>Redzuawan_</h6>
+
+                        <div class="feature_container">
+                            <div class="feature">
+                                <i class="bi bi-patch-question" id="icon"></i>                             
+                                <h4>Stuck at something?</h4>
+                                <h6>Don't be shy, post questions and ask for help from 100+ thousand users on the platform.</h6>
+                            </div>
+                            <div class="feature">
+                                <i class="bi bi-people" id="icon"></i>
+                                <h4>Experts by your side.</h4>
+                                <h6>Professionls in the culinary arts are a part of the community. Get exclusive answers from none other than the best!</h6>
+                            </div>
+                            <div class="feature">
+                                <i class="bi bi-share" id="icon"></i>
+                                <h4>Help each other out!</h4>
+                                <h6>Got tips and tricks up your sleeve you want to share? Help out fellow food enthusiats and share what you know!</h6>
+                            </div>
                         </div>
-                        <div class="topcon_user">
-                            <div class="prof_pic"></div>
-                            <h6>NotGordonRamsay</h6>
-                        </div>
-        
                     </div>
-        
                 </div>
             </div>
         </div>
-         
-        
-
     </div>
 </body>
 </html>
