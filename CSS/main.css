@@ -1,15 +1,19 @@
-.body{
+.body {
     background-color: #322F3D;
 }
 
-.main_page{
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.main_page {
     display: flex;
     flex-direction: column;
 }
 
 /* ----------------------------- TOP NAVIGATION BAR */
 
-.top_container{
+.top_container {
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -19,14 +23,14 @@
     padding: 5px;
 }
 
-.navbar_section{
+.navbar_section {
     display: flex;
     width: fit-content;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.backtoMain{
+.backtoMain {
     width: 300px;
     border-radius: 20px;
     margin: 5px 0px 5px 15px;
@@ -35,9 +39,9 @@
 input[type="text"]::placeholder {
     padding: 10px;
     color: white;
-  }
+}
 
-.search_bar{
+.search_bar {
     width: 600px;
     height: 40px;
     padding: 10px;
@@ -49,7 +53,7 @@ input[type="text"]::placeholder {
     border-color: white;
 }
 
-.search_btn{
+.search_btn {
     background-color: #f3a340;
     color: black;
     height: 40px;
@@ -64,7 +68,7 @@ input[type="text"]::placeholder {
     border-radius: 0px 50px 50px 0px;
 }
 
-.login_signup{
+.login_signup {
     width: 200px;
     height: 40px;
     font-size: 20px;
@@ -81,11 +85,11 @@ input[type="text"]::placeholder {
     padding: 5px;
 }
 
-.login_signup :hover{
+.login_signup :hover {
     color: black;
 }
 
-.profile_button{
+.profile_button {
     overflow: hidden;
     text-align: center;
     height: 60px;
@@ -99,12 +103,12 @@ input[type="text"]::placeholder {
 
 /* ----------------------------- BODY CONTAINER */
 
-.body_container{
+.body_container {
     flex-direction: column;
     align-items: center;
 }
 
-.page_contents{
+.page_contents {
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -114,7 +118,7 @@ input[type="text"]::placeholder {
 
 /* ----------------------------- MIDDLE FEED + HEADER */
 
-.feed_container{
+.feed_container {
     height: fit-content;
     width: 850px;
     margin-right: 20px;
@@ -123,7 +127,7 @@ input[type="text"]::placeholder {
     border-color: black;
 }
 
-.feed_header{
+.feed_header {
     margin-top: 20px;
     height: 50px;
     border-width: 1px;
@@ -133,11 +137,11 @@ input[type="text"]::placeholder {
     justify-content: space-between;
 }
 
-.popquest_textbox{
+.popquest_textbox {
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding: 10px;
     font-size: 50px;
     color: white;
@@ -146,7 +150,7 @@ input[type="text"]::placeholder {
     box-shadow: 0px 0px 5px #7d7597;
 }
 
-.ask_question{
+.ask_question {
     padding: 10px;
     border-radius: 30px;
     width: fit-content;
@@ -155,7 +159,7 @@ input[type="text"]::placeholder {
 
 /* ----------------------------- FEED POSTS */
 
-.feed{
+.feed {
     margin-top: 10px;
     padding: 0px 20px 10px 20px;
     height: fit-content;
@@ -163,11 +167,11 @@ input[type="text"]::placeholder {
     border-width: 1px;
     border-style: dashed;
     border-color: black;
-    border-radius: 5px; 
+    border-radius: 5px;
     flex-direction: column;
 }
 
-.post{
+.post {
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -177,21 +181,21 @@ input[type="text"]::placeholder {
     padding: 15px;
 }
 
-.qtitle_textbox{
+.qtitle_textbox {
     margin-bottom: 10px;
 }
 
-.qdesc_textbox{
+.qdesc_textbox {
     margin-bottom: 10px;
 }
 
-.postedby_textbox p{
+.postedby_textbox p {
     font-size: 12px;
 }
 
 /* ----------------------------- SIDEBAR */
 
-.sidebar{
+.sidebar {
     margin-top: 80px;
     height: fit-content;
     width: fit-content;
@@ -200,14 +204,14 @@ input[type="text"]::placeholder {
     border-color: black;
 }
 
-.button_link{
+.button_link {
     width: 200px;
     height: fit-content;
     background-color: #59405C;
     border-width: 1px;
     border-style: dashed;
-    border-color: black;   
-    border-radius: 5px; 
+    border-color: black;
+    border-radius: 5px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -216,40 +220,40 @@ input[type="text"]::placeholder {
     margin-bottom: 30px;
 }
 
-.faq_btn{
+.faq_btn {
     width: 100%;
     margin-top: 10px;
 }
 
-.about_btn{
+.about_btn {
     width: 100%;
 }
 
-.top_contributor{
+.top_contributor {
     width: 200px;
     height: fit-content;
     border-width: 1px;
     border-style: dashed;
-    border-color: black;  
-    border-radius: 5px; 
-    background-color: #59405C;  
+    border-color: black;
+    border-radius: 5px;
+    background-color: #59405C;
     margin: 10px;
     padding: 10px;
 }
 
-.topcon_textbox{
+.topcon_textbox {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.topcon_user{
+.topcon_user {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
 
-.prof_pic{
+.prof_pic {
     height: 30px;
     width: 30px;
     background-color: white;
@@ -258,7 +262,7 @@ input[type="text"]::placeholder {
     margin-right: 10px;
 }
 
-.login_details{
+.login_details {
     display: flex;
     flex-direction: column;
     align-items: center;
