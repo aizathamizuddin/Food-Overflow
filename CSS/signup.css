@@ -34,10 +34,11 @@ input {
 .login_container {
     color: white;
     width: 450px;
-    height: 430px;
+    height: 400px;
     position: absolute;
     left: 50%;
-    top: 20vh;
+    top: 50vh;
+    margin-top: -200px;
     display: flex;
     flex-direction: column;
     align-items: center;

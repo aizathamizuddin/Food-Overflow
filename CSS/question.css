@@ -97,6 +97,15 @@ input[type="text"]::placeholder {
     margin: 5px 20px 5px 30px;
 }
 
+.backtoMain:hover{
+    background: -webkit-linear-gradient(left, #322F3D 30%, #4B5D67 70%);
+    border: 1px solid black;
+}
+
+.login_signup:hover, .search_btn:hover, .profile_button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* ----------------------------- BODY CONTAINER */
 
 .body_container {
