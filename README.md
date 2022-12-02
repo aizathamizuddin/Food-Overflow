@@ -49,5 +49,5 @@ and
 
     Click on the thumbnail below to watch the video on YouTube.
 
-[![1](https://user-images.githubusercontent.com/97009898/205253986-cc123fe1-5736-42f4-996c-67316ae612fe.png)](https://www.youtube.com/watch?v=ODjJHGjdtWk&t=1s)
+[![1](https://user-images.githubusercontent.com/97009898/205253986-cc123fe1-5736-42f4-996c-67316ae612fe.png)](https://youtu.be/uXWaqCCdIgY)
   
